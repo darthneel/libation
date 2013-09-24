@@ -1,0 +1,57 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-24 00:04:01 -0400
+Processing by VenueController#index as HTML
+  Rendered venue/index.html.erb within layouts/application (5.2ms)
+Compiled neighborhood.css  (0ms)  (pid 7188)
+Compiled user.css  (0ms)  (pid 7188)
+Compiled application.css  (107ms)  (pid 7188)
+Compiled jquery.js  (2ms)  (pid 7188)
+Compiled jquery_ujs.js  (0ms)  (pid 7188)
+Compiled neighborhood.js  (0ms)  (pid 7188)
+Compiled user.js  (0ms)  (pid 7188)
+Compiled application.js  (149ms)  (pid 7188)
+Completed 200 OK in 418ms (Views: 417.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /user.css - 200 OK (53ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /neighborhood.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /user.js - 200 OK (1ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /neighborhood.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-24 00:04:02 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml

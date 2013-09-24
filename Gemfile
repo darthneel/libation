@@ -17,6 +17,8 @@ gem 'devise'
 
 gem 'pg'
 
+gem 'uglifier'
+
 
 
 

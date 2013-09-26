@@ -48567,3 +48567,138 @@ Served asset /user.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 18:18:47 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 18:52:16 -0400
+Processing by VenuesController#main as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.4ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (6.2ms)
+  Rendered venues/main.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main/50/tips" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Processing by VenuesController#maintips as HTML
+  Parameters: {"id"=>"50"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mVenue Load (0.3ms)[0m  [1mSELECT "venues".* FROM "venues" WHERE "venues"."id" = $1 LIMIT 1[0m  [["id", "50"]]
+  [1m[35mVenue Load (0.7ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.4ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (7.2ms)
+  [1m[35mTip Load (0.5ms)[0m  SELECT "tips".* FROM "tips" WHERE "tips"."venue_id" = 50
+  Rendered venues/maintips.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
+Served asset /application.js - 304 Not Modified (0ms)

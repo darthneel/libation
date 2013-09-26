@@ -19,6 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-# every 5.minutes do
-# 	runner "Venue.scheduled_herenow"
-# end
+every 5.minutes do
+	runner "Venue.scheduled_herenow"
+end

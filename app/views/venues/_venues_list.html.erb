@@ -5,7 +5,12 @@
 
 	<li>
 		<h3><%= link_to venue[:name], maintips_path(venue.id) %></h3>
-		<p><%= venue[:address].gsub(",",", ") %></p>
+		<p><%= venue[:address].gsub(",",", ") %> | 
+			<% if current_user.favorite_venue_ids.include?(venue.id) %>
+				<%= link_to "Remove from Favorites", :controller => :favorites, :action => "delete", :id => venue[:id]%>
+				<% else %>
+				<%= link_to "Add to Favorites", :controller => :favorites, :action => "new", :id => venue[:id] %>
+			<% end %>		
 	</li>
 	<% end %> 
 </ul>

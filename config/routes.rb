@@ -9,11 +9,14 @@ devise_for :users
   
   get '/venues/test', :to => "venues#test"
   get '/venues/test2', :to => "venues#test2"
+  get '/venues/map', :to => "venues#map"
+
 
   get '/venues/main', :to => "venues#main", :as => :main
   get '/venues/main/:id/tips', :to => "venues#maintips", :as => :maintips
-  get '/venues/map', :to => "venues#map"
-
+  
+  get 'favorites/new', :to => "favorites#new", :as => :add_favorite
+  get 'favorites/delete', :to => "favorites#delete", :as => :delete_favorite
 
 
 

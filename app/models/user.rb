@@ -8,5 +8,9 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
   
 has_many :favorites
+	def favorite_venue_ids
+		favorites.map { |fav| fav.venue_id }
+	end
 
 end
+	

@@ -4,7 +4,6 @@ gem 'rails', '3.2.13'
 
 gem 'jquery-rails'
 
-
 gem 'json'
 gem 'foursquare2'
 gem 'typhoeus'
@@ -20,11 +19,9 @@ gem 'pg'
 
 gem 'uglifier'
 
-gem 'awesome_print'
-
 gem 'whenever', :require => false
 
-
+gem "font-awesome-rails"
 
 
 

@@ -1,13 +1,18 @@
 ProjectTest::Application.routes.draw do
 
-root :to => 'venue#index'
+
+root :to => 'venues#index'
 
 devise_for :users
 
-resources :venue
+# resources :venues
   
-  
+  get '/venues/test', :to => "venues#test"
+  get '/venues/test2', :to => "venues#test2"
 
+  get '/venues/main', :to => "venues#main", :as => :main
+  get '/venues/main/:id/tips', :to => "venues#maintips", :as => :maintips
+  get '/venues/map', :to => "venues#map"
 
 
 

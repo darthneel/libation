@@ -1,7 +1,9 @@
+
+
 development:
   adapter: postgresql
   encoding: unicode
-  database: project_test_development
+  database: projectone
   pool: 5
   username: DarthNeel
   password:
@@ -10,7 +12,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: project_test_development
+  database: projectone
   pool: 5
   username: DarthNeel
   password:
@@ -19,8 +21,38 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: project_test_development
+  database: projectone
   pool: 5
   username: DarthNeel
   password:
   host: localhost
+
+# ______________________________________________________
+
+
+# development:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: project_test_development
+#   pool: 5
+#   username: DarthNeel
+#   password:
+#   host: localhost
+
+# test:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: project_test_development
+#   pool: 5
+#   username: DarthNeel
+#   password:
+#   host: localhost
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: project_test_development
+#   pool: 5
+#   username: DarthNeel
+#   password:
+#   host: localhost

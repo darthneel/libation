@@ -1,0 +1,15 @@
+
+<ul>
+
+<% @venues.each do |venue| %>
+
+	<li>
+		<h3><%= link_to venue[:name], maintips_path(venue.id) %></h3>
+		<p><%= venue[:address].gsub(",",", ") %></p>
+	</li>
+	<% end %> 
+</ul>
+
+
+
+

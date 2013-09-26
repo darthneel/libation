@@ -1,0 +1,8 @@
+<ul>
+	<% @tips.each do |tip| %>
+		<% (0..8).each do |x| %>
+
+			<li><%= venue.tips[x].review %></li>
+		<% end %>
+	<% end %>
+</ul>

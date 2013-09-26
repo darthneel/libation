@@ -7,12 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class = "container">
 
-<%= yield %>
+		<div class = "twelve columns offset-by-two" id = "wrapper">
+	 
+			 <p class="notice"><%= notice %></p>
+			 <p class="alert"><%= alert %></p>
+
+			 <%= link_to "sign_out", destroy_user_session_path,
+			 		method: :delete %>
+
+			<%= yield %>
+
+		</div>
 
 
-       <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
 
+
+	</div>
 </body>
 </html>

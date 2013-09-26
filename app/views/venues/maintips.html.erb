@@ -1,0 +1,17 @@
+<div id = "venues_list">
+	<%= render partial: "venues_list", locals: {:venues => @venues} %>
+</div>
+
+<div class = "tips">
+<ul>
+	<div id = "each_tip">
+	<% @tips.each do |tip| %>
+		
+			<li><%= tip.review.capitalize %></li>
+		<% end %>
+	</div>
+</ul>
+</div>
+
+	
+

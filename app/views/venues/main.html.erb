@@ -1,6 +1,16 @@
+<div class = "venues_wrapper fourteen columns offset-by-two">
+	
+	<div class = "seven columns alpha" id = "map">
 
-<div id = "venues_list">
-	<%= render partial: "venues_list", locals: {:venues => @venues} %>
-</div>
+	<img class = "map_img" src ="http://maps.googleapis.com/maps/api/staticmap?center=40.739874,-73.999984&zoom=14&scale=1&format=png&sensor=false&size=900x400&maptype=roadmap&visual_refresh=true&style=feature:water|color:0x18a385&style=feature:road|color:0xf4c40e&style=feature:landscape|element:labels|weight:0.5|color:0xecf0f3&style=feature:road|element:labels|color:0xffffff|weight:0.7&markers=color:blue%7Clabel:1%7C<%= @venues[0].lat %>,<%= @venues[0].lng %>&markers=color:green%7Clabel:2%7C<%= @venues[1].lat %>,<%= @venues[1].lng %>&markers=color:purple%7Clabel:3%7C<%= @venues[2].lat %>,<%= @venues[2].lng %>&markers=color:orange%7Clabel:4%7C<%= @venues[3].lat %>,<%= @venues[3].lng %>&markers=color:yellow%7Clabel:5%7C<%= @venues[4].lat %>,<%= @venues[4].lng %>&sensor=false">
 
+	</div>	
+
+	<div class = "seven columns omega" id = "venues_list">
+
+
+		<%= render partial: "venues_list", locals: {:venues => @venues} %>
+	</div>
+
+	
 </div>

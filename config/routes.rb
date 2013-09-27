@@ -7,9 +7,9 @@ devise_for :users
 
 # resources :venues
   
-  get '/venues/test', :to => "venues#test"
-  get '/venues/test2', :to => "venues#test2"
-  get '/venues/map', :to => "venues#map"
+  # get '/venues/test', :to => "venues#test"
+  # get '/venues/test2', :to => "venues#test2"
+  # get '/venues/map', :to => "venues#map"
 
 
   get '/venues/main', :to => "venues#main", :as => :main
@@ -17,7 +17,7 @@ devise_for :users
   
   get 'favorites/new', :to => "favorites#new", :as => :add_favorite
   get 'favorites/delete', :to => "favorites#delete", :as => :delete_favorite
-
+  get '/venues/favorite', :to => "venues#favorite", :as => :favorites
 
 
   # The priority is based upon order of creation:

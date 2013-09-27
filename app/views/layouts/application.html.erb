@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ProjectTest</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title>Libation</title>
+  <%= stylesheet_link_tag   "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<div class = "container">
+		<div class = "layout_wrapper">
 
-		<div class = "twelve columns offset-by-two" id = "wrapper">
-	 
-			 <p class="notice"><%= notice %></p>
-			 <p class="alert"><%= alert %></p>
+			<div class = "row"></div>
 
-			 <%= link_to "sign_out", destroy_user_session_path,
-			 		method: :delete %>
+<!-- 
+		    <div class="one column">|1 column|</div>
+		    <div class="one column">|2 column|</div>
+		    <div class="one column">|3 column|</div>
+		    <div class="one column">|4 column|</div>
+		    <div class="one column">|5 column|</div>
+		    <div class="one column">|6 column|</div>
+		    <div class="one column">|7 column|</div>
+		    <div class="one column">|8 column|</div>
+		    <div class="one column">|9 column|</div>
+		    <div class="one column">|10 column|</div>
+		    <div class="one column">|11 column|</div>
+		    <div class="one column">|12 column|</div>
+		    <div class="one column">|13 column|</div>
+		    <div class="one column">|14 column|</div>
+		    <div class="one column">|15 column|</div>
+		    <div class="one column">|16 column|</div>
+ -->
+			<div class = "row"></div> 
+		 	<% if notice || alert %>
+				 <p class="notice"><%= notice %></p>
+				 <p class="alert"><%= alert %></p>
+			<% end %>	
+			 
+			<nav class = "alpha fourteen columns" id = "nav">
+				<% if user_signed_in? %>
+					<%= link_to "SIGN OUT", destroy_user_session_path, method: :delete %> |
+					<%= link_to "FAVORITES", favorites_path %> | <%= link_to "HOME", main_path %>
+				<% end %>
+			</nav>
 
+			<div class = "row"></div>	
+			
 			<%= yield %>
 
 		</div>

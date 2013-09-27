@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *= 
+
+
+
+
+ */
+ 
+
+
+/*.tips ul {
+	display: inline;
+		
+}
+
+#each_tip {
+		float: left;
+		height: 100px;
+		width: 200px;
+}
+
+.background {
+			height:100%;
+			width: 100%;
+}
+
+#intro {
+	margin-top: 250px;
+}
+
+.intro_text {
+	text-decoration: none;					
+	color: white;
+}
+
+.intro_button{
+	background-color:#1abc9c;
+	float: left;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Helevetica', sans-serif;
+	letter-spacing: 1px;
+	border-bottom: 6px solid #bdc3c7;
+	cursor: pointer;
+	border-radius: 4px;
+
+	   -moz-transition: all .5s;
+	     -o-transition: all .5s;
+	-webkit-transition: all .5s;
+	        transition: all .5s;
+}
+
+.intro_button:hover{
+	background-color: #16a085;
+	border-color: gray;
+}
+
+.login_left {
+	
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.login_right {	
+	background-color: blue;
+	top:0;
+	right:0;
+
+}
+
+#wrapper_login {
+		padding: 0;
+		margin: 0;
+		width:100%;
+}
+
+#login_img {
+	height: 600px;
+}*/
+

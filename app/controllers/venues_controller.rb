@@ -6,8 +6,16 @@ class VenuesController < ApplicationController
 	end
 
 	def main
+		venues = Venue.all
+			venues.each do |venue|
+				client = Foursquare2::Client.new(:client_id => "RALB0H3NYUUPGDF501WRSNB55UWHTQKDLISKHJ5JC2WX3KBM", :client_secret => "JR4DPIZZ3LP1BZMI2AYZR3UWAYX2CXHF0PWA3Y24RDIRVNBW")
+				herenow = client.herenow(venue.venue_id)	
+				venue.here_now = herenow.hereNow["count"]
+				venue.save
+			end
 		@venues = Venue.order("here_now DESC").limit(5)
-	end 
+	end
+
 
 	def maintips
 		
@@ -29,15 +37,24 @@ class VenuesController < ApplicationController
 
 	end
 
-	def scheduled_herenow
-		venues = Venue.all
-			venues.each do |venue|
-			client = Foursquare2::Client.new(:client_id => "RALB0H3NYUUPGDF501WRSNB55UWHTQKDLISKHJ5JC2WX3KBM", :client_secret => "JR4DPIZZ3LP1BZMI2AYZR3UWAYX2CXHF0PWA3Y24RDIRVNBW")
-			herenow = client.herenow(venue.venue_id)	
-			venue.here_now = herenow.hereNow["count"]
-			venue.save
+	# def scheduled_herenow
+	# 	venues = Venue.all
+	# 		venues.each do |venue|
+	# 		client = Foursquare2::Client.new(:client_id => "RALB0H3NYUUPGDF501WRSNB55UWHTQKDLISKHJ5JC2WX3KBM", :client_secret => "JR4DPIZZ3LP1BZMI2AYZR3UWAYX2CXHF0PWA3Y24RDIRVNBW")
+	# 		herenow = client.herenow(venue.venue_id)	
+	# 		venue.here_now = herenow.hereNow["count"]
+	# 		venue.save
 
-		end	
+	def favorite
+		@venues = []
+
+		user = User.find(current_user.id)
+		user_fav = user.favorite_venue_ids
+			user_fav.each do |venue_id|
+				venue = Venue.find(venue_id)
+				@venues << venue
+			end
+
 	end
 end
 

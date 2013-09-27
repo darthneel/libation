@@ -1,19 +1,31 @@
-<div class = "login">
-<h2>Sign in</h2>
+<!-- <div class = "ten columns" id = "wrapper_login">
+ -->
+	<div class = "seven columns omega" id = "login_left">
+		<img id = "login_img" src = "/assets/libation.jpg">
+	</div>
 
-<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+	<div class = "seven columns alpha" id = "login_right">
 
-  <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
-  <% end -%>
+	<h3>Sign in</h3>
 
-  <div><%= f.submit "Sign in" %></div>
-<% end %>
+	<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+	  <div class = ""><%= f.label :email %><br/>
+	  <%= f.email_field :email, :autofocus => true %></div>
 
-<%= render "devise/shared/links" %>
+	  <div><%= f.label :password %><br />
+	  <%= f.password_field :password %></div>
+
+	  <% if devise_mapping.rememberable? -%>
+	    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+	  <% end -%>
+
+	  <div><%= f.submit "Sign in" %></div>
+	<% end %>
+
+	</div>
+
+	<%= render "devise/shared/links" %>
+<!-- 		
 </div>
+ -->

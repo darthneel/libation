@@ -1,0 +1,24 @@
+<br>
+<h3> Favorites </h3>
+
+
+<ul>
+	<% @venues.each do |venue| %>
+
+		<li>
+			<h4><%= venue[:name] %></h4>
+			<p><%= venue[:address].gsub(",",", ") %> 
+				<% if current_user.favorite_venue_ids.include?(venue.id) %>
+					<%= link_to "Remove from Favorites", :controller => :favorites, :action => "delete", :id => venue[:id]%>
+					<% else %>
+					<%= link_to "Add Back to Favorites", :controller => :favorites, :action => "new", :id => venue[:id] %>
+				<% end %>		
+		</li>
+		<% end %> 
+</ul>
+
+
+
+
+
+

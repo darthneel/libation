@@ -1,12 +1,25 @@
+
+
+.render {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+#login_right h3 {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
 #map {
 	width: 100%;
 
 }
 
-
-.one {
-	background-color: red;
+form {
+	padding-left: 15px;
+	padding-top: 15px;
 }
+
 
 #login_left a,
 a:link,

@@ -31,10 +31,13 @@ class VenuesController < ApplicationController
 
 	def scheduled_herenow
 		venues = Venue.all
-		venues.each do |venue|
+			venues.each do |venue|
 			client = Foursquare2::Client.new(:client_id => "RALB0H3NYUUPGDF501WRSNB55UWHTQKDLISKHJ5JC2WX3KBM", :client_secret => "JR4DPIZZ3LP1BZMI2AYZR3UWAYX2CXHF0PWA3Y24RDIRVNBW")
-			herenow = client.herenow(venue)
-		end			
+			herenow = client.herenow(venue.venue_id)	
+			venue.here_now = herenow.hereNow["count"]
+			venue.save
+
+		end	
 	end
 end
 

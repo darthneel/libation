@@ -48702,3 +48702,1938 @@ Served asset /neighborhood.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 18:52:28 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:21 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 147ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da2231630>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.7ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:46 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 109ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da15b4330>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:49 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da355cc28>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:49 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da16d9e68>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:49 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 4ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da4803868>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:50 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 6ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da4ced0b8>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:50 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 6ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da4d1a6a8>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:50 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.7ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da223f000>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:50 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da4e1e9c8>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:51 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da355e5f0>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:08:51 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 4ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da32cfbe0>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:12:20 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 112ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da1516428>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:12:21 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 4ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da3385ee0>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:12:21 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da15b0460>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:12:21 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da2080958>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:13:00 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 60ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da17de958>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:13:00 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 5ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da15a5b78>/herenow):
+  app/controllers/venues_controller.rb:48:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:13:56 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 63368ms
+
+URI::InvalidURIError (bad URI(is not URI?): venues/#<Venue:0x007f8da157eb68>/herenow):
+  app/controllers/venues_controller.rb:49:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:15:08 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (1.0ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 500 Internal Server Error in 27009ms
+
+Errno::EIO (Input/output error - <STDOUT>):
+  app/controllers/venues_controller.rb:50:in `block in test'
+  app/controllers/venues_controller.rb:46:in `each'
+  app/controllers/venues_controller.rb:46:in `test'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (124.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:18:44 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (26.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.7ms)[0m  SELECT "venues".* FROM "venues" 
+  Rendered venues/test.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 27708ms (Views: 198.2ms | ActiveRecord: 41.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /base.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /neighborhood.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /favorites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /favorites.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /neighborhood.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:12 -0400
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:19:30 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" 
+  Rendered venues/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1569ms (Views: 10.4ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:19:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:20:11 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 401 Unauthorized in 309540ms
+Connecting to database specified by database.yml
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:25:46 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.7ms)[0m  SELECT "venues".* FROM "venues" 
+  Rendered venues/test.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1495ms (Views: 141.4ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /base.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /favorites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /neighborhood.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /user.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /favorites.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /neighborhood.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:25:47 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:26:09 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" 
+  Rendered venues/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1081ms (Views: 9.5ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:26:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:26:54 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.4ms)[0m  SELECT "venues".* FROM "venues" 
+Completed 401 Unauthorized in 141199ms
+Connecting to database specified by database.yml
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:33:06 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  UPDATE "venues" SET "here_now" = 10, "updated_at" = '2013-09-26 23:33:07.048249' WHERE "venues"."id" = 50
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE "venues" SET "here_now" = 0, "updated_at" = '2013-09-26 23:33:07.197381' WHERE "venues"."id" = 51[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE "venues" SET "here_now" = 1, "updated_at" = '2013-09-26 23:33:07.287352' WHERE "venues"."id" = 42
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE "venues" SET "here_now" = 3, "updated_at" = '2013-09-26 23:33:07.398672' WHERE "venues"."id" = 43[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE "venues" SET "here_now" = 4, "updated_at" = '2013-09-26 23:33:07.488530' WHERE "venues"."id" = 44
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE "venues" SET "here_now" = 0, "updated_at" = '2013-09-26 23:33:07.591160' WHERE "venues"."id" = 45[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE "venues" SET "here_now" = 3, "updated_at" = '2013-09-26 23:33:07.666953' WHERE "venues"."id" = 46
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mUPDATE "venues" SET "here_now" = 1, "updated_at" = '2013-09-26 23:33:07.882743' WHERE "venues"."id" = 49[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1289ms (Views: 136.1ms | ActiveRecord: 28.5ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /base.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /layout.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /favorites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /neighborhood.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /skeleton.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /jquery.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /favorites.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /neighborhood.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:08 -0400
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:33:31 -0400
+Processing by VenuesController#main as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (15.0ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.7ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (116.1ms)
+  Rendered venues/main.html.erb within layouts/application (153.6ms)
+Completed 200 OK in 164ms (Views: 143.0ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:33:31 -0400
+Processing by VenuesController#main as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mVenue Load (0.6ms)[0m  [1mSELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5[0m
+  [1m[35mFavorite Load (41.7ms)[0m  SELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1
+  Rendered venues/_venues_list.html.erb (61.2ms)
+  Rendered venues/main.html.erb within layouts/application (62.1ms)
+Completed 200 OK in 81ms (Views: 30.2ms | ActiveRecord: 42.9ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:31 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Processing by VenuesController#main as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.3ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (5.6ms)
+  Rendered venues/main.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:33:36 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main/44/tips" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Processing by VenuesController#maintips as HTML
+  Parameters: {"id"=>"44"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mVenue Load (2.1ms)[0m  [1mSELECT "venues".* FROM "venues" WHERE "venues"."id" = $1 LIMIT 1[0m  [["id", "44"]]
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.3ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (15.9ms)
+  [1m[35mTip Load (1.0ms)[0m  SELECT "tips".* FROM "tips" WHERE "tips"."venue_id" = 44
+  Rendered venues/maintips.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 106ms (Views: 38.0ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:21 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:21 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:21 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:35:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/map" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Processing by VenuesController#map as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  Rendered venues/map.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 59ms (Views: 56.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/venues/map" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Processing by VenuesController#map as HTML
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (2.7ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  Rendered venues/map.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 21ms (Views: 10.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:36:16 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/map" for 127.0.0.1 at 2013-09-26 19:39:09 -0400
+Processing by VenuesController#map as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  Rendered venues/map.html.erb within layouts/application (18.4ms)
+Completed 500 Internal Server Error in 200ms
+
+ActionView::Template::Error (undefined local variable or method `background_image_url' for #<#<Class:0x007f9c3ca75708>:0x007f9c3cd5b490>):
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body style="background-image: url('<%= background_image_url %>')">
+    10: 	<div class = "container">
+    11: 
+    12: 		<div class = "twelve columns offset-by-two" id = "wrapper">
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1567195919549737493_70154506546680'
+
+
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/DarthNeel/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/venues/map" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Processing by VenuesController#map as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (2.1ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  Rendered venues/map.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:39:24 -0400
+Served asset /neighborhood.js - 304 Not Modified (5ms)
+
+
+Started GET "/venues/map" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Processing by VenuesController#map as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  Rendered venues/map.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:40:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:40:57 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.7ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1965ms (Views: 8.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:40:59 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (3.2ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1727ms (Views: 9.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:01 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Processing by VenuesController#main as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (1.0ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (9.8ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (39.2ms)
+  Rendered venues/main.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 61ms (Views: 37.4ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:09 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Processing by VenuesController#main as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mVenue Load (0.5ms)[0m  [1mSELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5[0m
+  [1m[35mFavorite Load (0.4ms)[0m  SELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1
+  Rendered venues/_venues_list.html.erb (6.7ms)
+  Rendered venues/main.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:24 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:41:29 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1357ms (Views: 9.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:41:31 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 952ms (Views: 10.4ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:41:32 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:43:09 -0400
+Processing by VenuesController#test as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.5ms)[0m  SELECT "venues".* FROM "venues" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered venues/test.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1559ms (Views: 9.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:10 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:10 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:10 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/main" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Processing by VenuesController#main as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mVenue Load (0.6ms)[0m  SELECT "venues".* FROM "venues" ORDER BY here_now DESC LIMIT 5
+  [1m[36mFavorite Load (0.6ms)[0m  [1mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = 1[0m
+  Rendered venues/_venues_list.html.erb (8.4ms)
+  Rendered venues/main.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:13 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:14 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/venues/test" for 127.0.0.1 at 2013-09-26 19:43:19 -0400
+Processing by VenuesController#test as HTML
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mVenue Load (0.6ms)[0m  [1mSELECT "venues".* FROM "venues" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered venues/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1586ms (Views: 8.9ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /favorites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /neighborhood.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/neighborhood.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /neighborhood.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favorites.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /favorites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-26 19:43:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
